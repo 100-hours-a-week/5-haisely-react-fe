@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "./Link.module.css"
+import styles from "./Help.module.css"
 
-export function Link({text}){
-    return <h6 className={styles.link}>{text}</h6>;
+export function Help({text}){
+    return <h6 className={styles.help}>{text}</h6>;
 }
 
-export default Link;
+export default Help;
