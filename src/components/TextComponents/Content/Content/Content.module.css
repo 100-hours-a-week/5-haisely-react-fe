@@ -1,0 +1,6 @@
+.content {
+    font-size: var(--main-font-size);
+    font-weight: var(--regular-font-weight);
+    color: var(--black);
+    text-align: start;
+}

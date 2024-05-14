@@ -1,0 +1,8 @@
+.help{
+    font-weight:var(--regular-font-weight);
+    font-size: 12px;
+    color : #FF0000;
+    margin: 4px 0;
+    min-height: 1em; /* 최소한의 높이를 가지도록 설정 */
+    display: inline-block; /* 내용에 따라 크기가 자동으로 조절되도록 함 */
+}

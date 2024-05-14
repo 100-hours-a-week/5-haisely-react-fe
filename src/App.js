@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import './styles/variables.css'
+import {LargeTitle, Link} from './components/TextComponents';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LargeTitle text="안녕?"></LargeTitle>
+      <Link text="카카오 드가자" link="https://www.kakaocorp.com/page/"></Link>
     </div>
   );
 }

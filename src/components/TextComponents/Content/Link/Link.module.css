@@ -1,0 +1,7 @@
+.link {
+    text-decoration: none;
+    font-size: var(--small-font-size);
+    font-weight: var(--regular-font-weight);
+    color: var(--black);
+    cursor: pointer;
+}
