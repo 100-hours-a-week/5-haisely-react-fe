@@ -1,0 +1,6 @@
+.smallContent {
+    font-size: var(--small-font-size);
+    font-weight: var(--regular-font-weight);
+    color: var(--black);
+    margin: var(--spacing-small) 0;
+}
