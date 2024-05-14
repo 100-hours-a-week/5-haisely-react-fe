@@ -1,0 +1,15 @@
+.mediumButton {
+    all : unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-purple);
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--bold-font-weight);
+    cursor: pointer;
+    width: 138px;
+    height: 39px;
+    border-radius: 15px;
+    font-size: var(--medium-font-size);
+}

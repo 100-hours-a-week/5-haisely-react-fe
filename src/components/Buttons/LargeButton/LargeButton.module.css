@@ -1,0 +1,15 @@
+.largeButton {
+    all : unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-purple);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--bold-font-weight);
+    cursor: pointer;
+    width: 355px;
+    height: 33px;
+    font-size: var(--small-font-size);
+}
