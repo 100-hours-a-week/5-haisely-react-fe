@@ -1,0 +1,7 @@
+.smallTitle {
+    font-size: var(--medium-font-size);
+    font-weight: var(--bold-font-weight);
+    color: var(--black);
+    text-align: start;
+    margin: var(--spacing-small) 0;
+}

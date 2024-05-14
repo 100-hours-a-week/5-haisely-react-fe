@@ -1,0 +1,6 @@
+.mediumTitle {
+    font-size: var(--large-font-size);
+    font-weight: var(--bold-font-weight);
+    color: var(--black);
+    text-align: center;
+}

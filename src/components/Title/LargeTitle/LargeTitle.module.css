@@ -1,0 +1,6 @@
+.largeTitle {
+    font-size: var(--title-font-size);
+    font-weight: var(--bold-font-weight);
+    color: var(--black);
+    text-align: center;
+}
