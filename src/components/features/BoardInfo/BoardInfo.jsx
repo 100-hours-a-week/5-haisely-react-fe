@@ -5,7 +5,7 @@ import {SmallTitle} from "../../TextComponents"
 export function BoardInfo({text, num}){
     return (<article className={styles.info}>
             <p className={styles.num}>{num}</p>
-            <SmallTitle text={text}></SmallTitle>
+            <SmallTitle text={text}/>
         </article>);
 }
 

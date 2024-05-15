@@ -3,6 +3,7 @@ import './styles/variables.css'
 import {LargeTitle, Link} from './components/TextComponents';
 import { SmallButton, TinyButton } from './components/Buttons';
 import {BoardInfo} from './components/features/BoardInfo/BoardInfo';
+import {Profile } from './components/features/Profile/Profile';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SmallButton text="확인" isPurple="true"></SmallButton>
       <TinyButton text="수정"></TinyButton>
       <BoardInfo text="조회수" num="123"></BoardInfo>
+      <Profile name="이름" url="https://blog.kakaocdn.net/dn/tEMUl/btrDc6957nj/NwJoDw0EOapJNDSNRNZK8K/img.jpg" />
     </div>
   );
 }
