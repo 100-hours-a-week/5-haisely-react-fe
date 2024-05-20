@@ -1,0 +1,29 @@
+.modal{
+    position:fixed;
+    z-index: 200;
+    width: 408px;
+    height: 242px;
+    background-color: var(--white);
+    border-radius: 12px;
+    top:30%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: var(--regular-font-weight);
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    gap: 8px;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+}
+p{
+    margin: 16px;
+    font-weight: var(--regular-font-weight);
+    font-size: 20px;
+    text-align: center;
+}
