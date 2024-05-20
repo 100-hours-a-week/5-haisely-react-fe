@@ -1,0 +1,19 @@
+.form{
+    display: flex;
+    max-width: 355px;
+    flex-direction: column;
+    text-align: start;
+}
+
+input{
+    font-weight: var(--regular-font-weight);
+    font-size: var(--small-font-size);
+    border : 1px solid black;
+    border-radius : 4px;
+    width: 100%;
+    display: flex;
+    width : 333px;
+    height : 31px;
+    background-color: transparent;
+    padding: 0 10px;
+}
