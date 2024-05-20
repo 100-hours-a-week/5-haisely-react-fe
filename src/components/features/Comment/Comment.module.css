@@ -1,0 +1,29 @@
+.comment{
+    width: 544px;
+    margin: 20px auto;
+}
+.detail{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.content{
+    margin: 0 46px
+}
+
+.smallButtons{
+    gap: 8px;
+    display: flex;
+    flex-direction:row;
+    align-self: center;
+}
+
+.textDetail{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.textDetail h5{
+    margin-top: 10px;
+}

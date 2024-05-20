@@ -3,4 +3,5 @@
     font-weight: var(--regular-font-weight);
     color: var(--black);
     text-align: start;
+    margin: var(--spacing-small) 0;
 }
