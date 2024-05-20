@@ -1,0 +1,34 @@
+.unit{
+    display: block;
+    width: 592px;
+    height: 169px;
+    background-color: var(--white);
+    border-radius: 16px;
+    box-shadow: 3px 4px 4px 0px rgba(204, 204, 204, 0.25);
+    margin: var(--spacing-small) 0;
+    padding-top: 1px;
+}
+
+.content h2{
+    text-align: start;
+    margin: 18px 30px 8px 30px;
+}
+
+.detail{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 6px 30px 16px 30px;
+}
+
+.horizontalRule{
+    opacity: 0.16;
+}
+
+
+.writer {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 14px 22px 14px 22px;
+}

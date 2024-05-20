@@ -7,6 +7,7 @@ import {Profile } from './components/features/Profile/Profile';
 import {TextForm} from './components/features/TextForm/TextForm';
 import {Dropdown} from './components/features/Dropdown/Dropdown';
 import {Comment} from './components/features/Comment/Comment';
+import {Board} from './components/features/Board/Board';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <TextForm text="이메일*" name="email" type="email" placeholder="이메일을 입력하세요" helpText="*이메일을 입력해주세요."></TextForm>
       <Dropdown profileUrl="https://blog.kakaocdn.net/dn/tEMUl/btrDc6957nj/NwJoDw0EOapJNDSNRNZK8K/img.jpg"></Dropdown>
       <Comment name="이름" content="이이이이ㅣ이이이이이이이내용ㅇ엉ㅇ" date="2021-01-01 00:00:00" profileUrl="https://blog.kakaocdn.net/dn/tEMUl/btrDc6957nj/NwJoDw0EOapJNDSNRNZK8K/img.jpg"></Comment>
+      <Board title="제목" commentNum={2} date="2021-01-01 00:00:00" viewNum={4} profileUrl="https://blog.kakaocdn.net/dn/tEMUl/btrDc6957nj/NwJoDw0EOapJNDSNRNZK8K/img.jpg" nickname="닉네임"></Board>
     </div>
   );
 }

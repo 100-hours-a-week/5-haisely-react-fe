@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Comment.module.css"
-import { Link, SmallContent, Content } from "../../TextComponents"
-import {ProfileImage} from "../../Common"
+import { SmallContent, Content } from "../../TextComponents"
 import { TinyButton } from "../../Buttons";
 import {Profile} from "../Profile/Profile"
 
