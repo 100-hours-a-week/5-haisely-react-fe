@@ -1,8 +1,17 @@
-.App {
+body {
   background-color: var(--main-bg-color);
   color: var(--black);
   font-family: var(--primary-font);
   font-size: var(--main-font-size);
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.App{
+  flex-direction: column;
+  width: 100%;
+  background-color: transparent;
+  align-items: center;
+  margin: 0;
 }
